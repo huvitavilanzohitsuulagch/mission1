@@ -1,0 +1,65 @@
+.container {
+    background-color: #E5E5E5;
+    width: 100vw;
+    height: 100vh;
+}
+body {
+    margin: 0;
+}
+.head {
+    background-color: green;
+    width: 100vw;
+    height: 3vh;
+}
+.top {
+    display: flex;
+    /* flex-direction: row; */
+    background-color: #E5E5E5;
+    width: 100vw;
+    height: 30vh;
+
+}
+.bottom {
+    background-color: #E5E5E5;
+    width: 100vw;
+    height: 67vh;
+}
+.logo {
+    width: 197px;
+    height: 165px;
+    background: #000000;
+    margin-left: 32px;
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ellipse {
+    width: 126px;
+    height: 126px;
+    background: #4B6080;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 68px; */
+    /* margin-left: 68px;
+    margin-top: 18px; */
+}
+.inputbutton{
+    width: 1004px;
+height: 291px;
+    background-color: black;
+    margin-left: 150px;
+    margin-bottom: 100px;
+    flex-direction: column;
+    display: flex;
+}
+.inputtop {
+    width: 100vw;
+    height: 50vh;
+}
+.inputbuttom {
+    width: 100vw;
+    height: 50vh;
+}
