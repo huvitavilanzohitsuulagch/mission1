@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,30 +8,36 @@
     <title>Mission1</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     <div class="container">
-       <div class="head"> </div>
-            <div class="top">
-                <div class="logo">
-                    <div class="ellipse">
-                        <img src="./Ellipse 3.png" alt="">
-                    </div>
-                </div>
-                <div class="inputbutton">
-                    <div class="inputtop">
-                        <input type="text">
-                        <input type="text">
-                        <input type="text">
-                    </div>
-                    <div class="inputbottom">
-                        <input type="text">
-                        <button></button>
-                    </div>
-                </div>
+        <div class="head"></div>
+        <div class="top">
+            <div class="logo">
+                <div class="ellipse">
+                    <img src="./Ellipse 3.png" alt="" style="width: 70px; height: 70px;">
                 </div>
             </div>
-       <div class="bottom">
-       </div>
-   </div>
+            <div class="inputbutton">
+                <div class="inputtop">
+                    <input type="text" class="inputtop3" placeholder="Poster Link" id="psl">
+                    <input type="text" class="inputtop3" placeholder="Movie Name" id="mvn">
+                    <input type="text" class="inputtop3" placeholder="IMDB Link" id="imd">
+                </div>
+                <div class="inputbuttom">
+                    <input type="text" class="inputbuttom1" placeholder="Description" id="dsc">
+                    <button class="inputbuttombtn" onclick="res()">Add To List</button>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="font">My List</div>
+            <hr>
+            <div class="main" id="poster"></div>
+        </div>
+    </div>
+    </div>
 </body>
+<script src="./engine.js"></script>
+
 </html>
